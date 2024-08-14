@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function setImageSource(imageElement, baseName) {
-        const formats = ['webp', 'jpeg'];
+        const formats = ['webp', 'jpeg', 'jpg'];
         let formatIndex = 0;
 
         function tryNextFormat() {
