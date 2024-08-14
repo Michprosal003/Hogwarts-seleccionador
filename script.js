@@ -79,7 +79,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 };
                 img.src = imageElement.src;
             } else {
-                // All formats tried and none worked; you can set a default or error image here
                 imageElement.src = 'default-image.jpg';
             }
         }
@@ -113,7 +112,6 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('welcome-section').style.display = 'none';
         document.getElementById('quiz-section').style.display = 'block';
 
-        // Start the timer
         let timeLeft = 25;
         const timerElement = document.getElementById('timer');
         const timerInterval = setInterval(() => {
